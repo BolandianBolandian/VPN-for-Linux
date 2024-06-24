@@ -19,3 +19,24 @@ I will demonstrate how to streamline these tasks efficiently, allowing you to co
 **Step 3: Transitioning to Manual Mode and Enjoying Free Internet Access 😎**
 
 ![Step 2](images/step3.png)
+
+
+When it is necessary to disable the VPN (e.g., to access internal websites), you must stop the V2Ray service and select "Disabled" mode in the system proxy settings. Over time, this process can become quite cumbersome. Let's explore ways to streamline this procedure for efficiency.
+
+**Run these codes in your linux terminal:**
+
+```
+nano ~/.bashrc
+```
+
+**then paste these codes at the end of the opened file:**
+
+```
+alias check="gsettings get org.gnome.system.proxy mode"
+alias vpn='/home/sadegh/Downloads/v2ray-linux-64/v2ray -config=/home/sadegh/Downloads/v2ray-linux-64/f.json'
+alias manual="gsettings set org.gnome.system.proxy mode 'manual'"
+alias off="gsettings set org.gnome.system.proxy mode 'none'"
+```
+
+**Like this:**
+
