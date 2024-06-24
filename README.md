@@ -80,6 +80,12 @@ vpn
 ![Step 4](images/step5.png)
 
 
+- to turn V2Ray off, first quit by (ctrl+C) then type "off":
+
+```
+off
+```
+
 **Enjoy it! From now on, you can activate the VPN in no time.**
 
 
