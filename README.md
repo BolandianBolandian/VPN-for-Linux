@@ -7,3 +7,15 @@ For Linux users, I highly recommend V2Ray VPN and suggest not searching for alte
 One challenge you may encounter is the need to disable the VPN at times. This requires switching your operating system's proxy settings from manual mode to disabled mode. Frequently toggling between these modes can become quite cumbersome. Additionally, launching the VPN and configuring it often necessitates repeatedly entering a lengthy command.
 
 I will demonstrate how to streamline these tasks efficiently, allowing you to complete them within seconds. First, let’s review the standard method:
+
+**Step 1: Navigating to the V2Ray Directory and Defining the Configuration File.**
+
+![Step 1](images/step1.png)
+
+**Step 2: Checking the network proxy status.**
+
+![Step 2](images/step2.png)
+
+**Step 3: Transitioning to Manual Mode and Enjoying Free Internet Access 😎**
+
+![Step 2](images/step3.png)
